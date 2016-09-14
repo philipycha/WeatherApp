@@ -10,12 +10,12 @@
 
 @implementation LHWCity
 
-- (instancetype)initWithName:(NSString*)name /*CurrentWeather:(NSString*)currentWeather*/
+- (instancetype)initWithName:(NSString*)name CurrentWeather:(NSString*)currentWeather
 {
     self = [super init];
     if (self) {
         _name = name;
-//        _currentWeather = currentWeather;
+        _currentWeather = currentWeather;
     }
     return self;
 }

@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LHWCity.h"
 
 @interface LHWDetailedViewController : UIViewController
+
+@property (nonatomic, strong) LHWCity *cityDetails;
+
+- (UIImage *)weatherImagePicker: (NSString *)curretWeather;
+
 
 @end

@@ -82,7 +82,7 @@
     
     UIButton *detailButton = [UIButton buttonWithType:UIButtonTypeSystem];
     [detailButton setTitle:@"More Details" forState:UIControlStateNormal];
-//    [detailButton addTarget:self action: forControlEvents:UIControlEventTouchUpInside];
+    [detailButton addTarget:self action:@selector(showWeatherDetails ) forControlEvents:UIControlEventTouchUpInside];
     
     
     [self.view addSubview:detailButton];
@@ -107,10 +107,22 @@
     
 }
 
+-(void) showWeatherDetails{
+    
+    LHWDetailedViewController *detailedVC = [[LHWDetailedViewController alloc] init];
+    detailedVC.cityDetails = self.city;
+    [self.navigationController pushViewController:detailedVC animated:YES];
+    
+    
+}
+
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 /*
 #pragma mark - Navigation
@@ -121,5 +133,6 @@
     // Pass the selected object to the new view controller.
 }
 */
+
 
 @end

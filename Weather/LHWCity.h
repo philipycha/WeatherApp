@@ -13,6 +13,6 @@
 @property (nonatomic, strong) NSString* name;
 @property (nonatomic, strong) NSString* currentWeather;
 
-- (instancetype)initWithName:(NSString*)name;
+- (instancetype)initWithName:(NSString*)name CurrentWeather:(NSString*)currentWeather;
 
 @end

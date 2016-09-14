@@ -11,6 +11,7 @@
 		154EF6FC1D89A85D00DBCFFC /* LHWCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF6FB1D89A85D00DBCFFC /* LHWCity.m */; };
 		154EF7051D89CB8C00DBCFFC /* LHWCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF7041D89CB8C00DBCFFC /* LHWCityViewController.m */; };
 		154EF7081D89CBA100DBCFFC /* LHWDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF7071D89CBA100DBCFFC /* LHWDetailedViewController.m */; };
+		154EF70B1D8A071500DBCFFC /* LHWWeatherGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF70A1D8A071500DBCFFC /* LHWWeatherGenerator.m */; };
 		60ADD94B1989CFDB0086A6BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ADD94A1989CFDB0086A6BC /* Foundation.framework */; };
 		60ADD94D1989CFDB0086A6BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ADD94C1989CFDB0086A6BC /* CoreGraphics.framework */; };
 		60ADD94F1989CFDB0086A6BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ADD94E1989CFDB0086A6BC /* UIKit.framework */; };
@@ -56,6 +57,8 @@
 		154EF7041D89CB8C00DBCFFC /* LHWCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHWCityViewController.m; sourceTree = "<group>"; };
 		154EF7061D89CBA100DBCFFC /* LHWDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHWDetailedViewController.h; sourceTree = "<group>"; };
 		154EF7071D89CBA100DBCFFC /* LHWDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHWDetailedViewController.m; sourceTree = "<group>"; };
+		154EF7091D8A071500DBCFFC /* LHWWeatherGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHWWeatherGenerator.h; sourceTree = "<group>"; };
+		154EF70A1D8A071500DBCFFC /* LHWWeatherGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHWWeatherGenerator.m; sourceTree = "<group>"; };
 		60ADD9471989CFDB0086A6BC /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60ADD94A1989CFDB0086A6BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		60ADD94C1989CFDB0086A6BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -148,6 +151,8 @@
 				60ADD95A1989CFDB0086A6BC /* LHWAppDelegate.m */,
 				154EF7031D89CB8C00DBCFFC /* LHWCityViewController.h */,
 				154EF7041D89CB8C00DBCFFC /* LHWCityViewController.m */,
+				154EF7091D8A071500DBCFFC /* LHWWeatherGenerator.h */,
+				154EF70A1D8A071500DBCFFC /* LHWWeatherGenerator.m */,
 				154EF7061D89CBA100DBCFFC /* LHWDetailedViewController.h */,
 				154EF7071D89CBA100DBCFFC /* LHWDetailedViewController.m */,
 				154EF6FA1D89A85D00DBCFFC /* LHWCity.h */,
@@ -321,6 +326,7 @@
 			files = (
 				154EF7081D89CBA100DBCFFC /* LHWDetailedViewController.m in Sources */,
 				60ADD95B1989CFDB0086A6BC /* LHWAppDelegate.m in Sources */,
+				154EF70B1D8A071500DBCFFC /* LHWWeatherGenerator.m in Sources */,
 				154EF7051D89CB8C00DBCFFC /* LHWCityViewController.m in Sources */,
 				154EF6FC1D89A85D00DBCFFC /* LHWCity.m in Sources */,
 				60ADD9571989CFDB0086A6BC /* main.m in Sources */,

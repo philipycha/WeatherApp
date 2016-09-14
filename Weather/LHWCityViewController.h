@@ -8,12 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import "LHWCity.h"
+#import "LHWDetailedViewController.h"
 
 @interface LHWCityViewController : UIViewController
 
 @property (nonatomic, strong) LHWCity* city;
 
 -(instancetype) initWithCity: (LHWCity *)city;
+-(void) showWeatherDetails;
+
+
 
 
 @end
