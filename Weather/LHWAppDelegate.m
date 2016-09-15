@@ -62,6 +62,10 @@
         
         navController.title = currentCity.name;
         
+        navController.tabBarItem.image = [UIImage imageNamed:@"default.png"];
+        
+        
+        
     }
     
 

@@ -10,14 +10,9 @@
 
 @interface LHWCityViewController ()
 
-@property (nonatomic, weak) UIButton *  detailButton;
-
+@property (nonatomic, weak) UIButton *               detailButton;
 @property (nonatomic, weak) UILabel *                cityTitle;
-@property (nonatomic, weak) NSLayoutConstraint *    purpleBoxHeight;
-@property (nonatomic, weak) NSLayoutConstraint *    purpleBoxWidth;
-@property (nonatomic, weak) NSLayoutConstraint *    purpleBoxRight;
-@property (nonatomic, weak) NSLayoutConstraint *    purpleBoxBottom;
-@property (nonatomic, weak) NSLayoutConstraint *    purpleBoxBottom2;
+
 
 @end
 
